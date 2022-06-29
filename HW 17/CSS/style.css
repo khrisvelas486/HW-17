@@ -1,0 +1,83 @@
+html {   
+    background-image: url(../images/Portfolio_BG_1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+body {
+    display: block;
+    margin: 0px;
+}
+.inline-block { 
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Bentham', serif;
+}
+.logo {
+    width: 15%;
+    padding: 0%;
+    text-align: left;
+}
+nav {
+    display:block;
+    display: flex;
+    align-items:flex;
+    padding: 0%;
+    color: white;
+    width: 100%;
+}    
+.navigation {
+    background-color: black;
+    opacity: .75;
+    position: relative;
+    padding: 0px;
+}
+nav > ul {
+    width: 85%;
+    padding: 2%;
+    margin-left: 85%;
+    margin:auto;
+    font-size: 22px;
+}
+.heroImg {
+    position: relative;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.content {
+    width: 500px;
+    margin: 2%;
+    align-content: flex-end;
+}
+footer {
+    display: flex;
+    align-items:flex;
+    background-color: #373738;
+    color: white;
+    padding-top: 0%;
+}
+footer > ul {
+    width: 100%;
+    padding: 0%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+h2 {
+    display: flex;
+    position: fixed;
+    top: 15%;
+    right:0;
+    margin-right: 17%;
+    padding: 2%;
+    text-align: center;
+}
+p {
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    text-align: left;
+    padding-right: 15px;
+    font-size: 20px;
+}
